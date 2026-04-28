@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "18f0123a-38ff-4fc6-8647-2684b42803cc")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 62.23 53.34)
+		(size 71.12 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "08c59930-bcc7-4af9-ba22-30d48b2eb9de")
+		(property "Sheetname" "Decoder"
+			(at 62.23 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Decoder.kicad_sch"
+			(at 62.23 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Decode-Unit"
+				(path "/18f0123a-38ff-4fc6-8647-2684b42803cc"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 90.17 110.49)
+		(size 77.47 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "22a1a7d0-9c27-41e0-a263-6c4ac5d40b17")
+		(property "Sheetname" "Matrix"
+			(at 90.17 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Matrix.kicad_sch"
+			(at 90.17 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Decode-Unit"
+				(path "/18f0123a-38ff-4fc6-8647-2684b42803cc"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

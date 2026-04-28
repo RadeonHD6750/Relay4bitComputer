@@ -1,0 +1,182 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0bd7d25e-b8f9-48f9-a7f3-2768d2271088")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 104.14 128.27)
+		(size 58.42 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1be428d1-3999-4959-9893-b12a2229416b")
+		(property "Sheetname" "Instruction Register"
+			(at 104.14 127.5584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Instruction Register.kicad_sch"
+			(at 104.14 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Fetch-Unit"
+				(path "/0bd7d25e-b8f9-48f9-a7f3-2768d2271088"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 181.61 85.09)
+		(size 53.34 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2e1ec934-a87b-4df2-91a2-16a6bdcfac99")
+		(property "Sheetname" "Address MUX"
+			(at 181.61 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Address MUX.kicad_sch"
+			(at 181.61 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Fetch-Unit"
+				(path "/0bd7d25e-b8f9-48f9-a7f3-2768d2271088"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.34 43.18)
+		(size 38.1 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c601e46b-c31e-4906-9569-a52b78921541")
+		(property "Sheetname" "Program Counter"
+			(at 53.34 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Program Counter.kicad_sch"
+			(at 53.34 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Fetch-Unit"
+				(path "/0bd7d25e-b8f9-48f9-a7f3-2768d2271088"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 43.18)
+		(size 43.18 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cee7a59b-ce86-43ed-ab57-b169805a3a4f")
+		(property "Sheetname" "INC"
+			(at 123.19 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "INC.kicad_sch"
+			(at 123.19 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Fetch-Unit"
+				(path "/0bd7d25e-b8f9-48f9-a7f3-2768d2271088"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

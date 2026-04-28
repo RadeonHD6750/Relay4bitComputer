@@ -1,0 +1,182 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "47c32a94-369c-418d-8152-dec3630a852a")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 139.7 85.09)
+		(size 72.39 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1ebbccd7-d1f7-4390-86d7-37c67fa61b6e")
+		(property "Sheetname" "Temp Register"
+			(at 139.7 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Temp Register.kicad_sch"
+			(at 139.7 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Execute-Unit"
+				(path "/47c32a94-369c-418d-8152-dec3630a852a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.15 38.1)
+		(size 55.88 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "344a3299-eafe-4c99-afc9-04c4eda10a45")
+		(property "Sheetname" "Arithmetic"
+			(at 57.15 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Arithmetic.kicad_sch"
+			(at 57.15 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Execute-Unit"
+				(path "/47c32a94-369c-418d-8152-dec3630a852a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.15 85.09)
+		(size 69.85 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a0216dba-ad76-4176-b5bd-d15fa1b36695")
+		(property "Sheetname" "ACC Register"
+			(at 57.15 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ACC Register.kicad_sch"
+			(at 57.15 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Execute-Unit"
+				(path "/47c32a94-369c-418d-8152-dec3630a852a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.89 39.37)
+		(size 76.2 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "afa018b3-602d-44df-a664-784359f3c4e7")
+		(property "Sheetname" "Logic"
+			(at 135.89 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Logic.kicad_sch"
+			(at 135.89 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Execute-Unit"
+				(path "/47c32a94-369c-418d-8152-dec3630a852a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
