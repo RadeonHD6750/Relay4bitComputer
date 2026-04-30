@@ -1,6 +1,6 @@
 <mxfile host="Electron">
   <diagram name="Relay4bitComputer 아키텍처" id="fWd6jnqSpFf65N30h1dO">
-    <mxGraphModel dx="1147" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1075" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -199,7 +199,7 @@
             <mxPoint x="1245" y="1090" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p5e3XkX39OyJ48vPLKHK-64" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="I/O Interface" vertex="1">
+        <mxCell id="p5e3XkX39OyJ48vPLKHK-64" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="address Interface" vertex="1">
           <mxGeometry height="60" width="120" x="965" y="730" as="geometry" />
         </mxCell>
         <mxCell id="p5e3XkX39OyJ48vPLKHK-65" edge="1" parent="1" source="p5e3XkX39OyJ48vPLKHK-6" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="p5e3XkX39OyJ48vPLKHK-64" value="">
