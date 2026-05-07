@@ -5,7 +5,7 @@
 	(uuid "91f86ce9-1b9c-4990-ac03-8ee65cedb4b7")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Diode:1N4004"
+		(symbol "Diode:1N4148"
 			(pin_numbers
 				(hide yes)
 			)
@@ -23,7 +23,7 @@
 					)
 				)
 			)
-			(property "Value" "1N4004"
+			(property "Value" "1N4148"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -31,16 +31,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -49,7 +40,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100V 0.15A standard switching diode, DO-35"
 				(at 0 0 0)
 				(effects
 					(font
@@ -85,7 +85,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*DO?41*"
+			(property "ki_fp_filters" "D*DO?35*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -94,7 +94,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "1N4004_0_1"
+			(symbol "1N4148_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27)
@@ -132,7 +132,7 @@
 					)
 				)
 			)
-			(symbol "1N4004_1_1"
+			(symbol "1N4148_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1811,104 +1811,6 @@
 		(uuid "e08d82e9-81a4-4e75-aa3d-6a01845ead4b")
 	)
 	(symbol
-		(lib_id "Diode:1N4004")
-		(at 176.53 29.21 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24819d99-0143-4f7e-af6f-5e46a5f6174c")
-		(property "Reference" "D15"
-			(at 176.53 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4004"
-			(at 176.53 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 176.53 24.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 176.53 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
-			(at 176.53 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 176.53 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 176.53 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "168c2903-1292-44fe-8a58-82314c2e2140")
-		)
-		(pin "2"
-			(uuid "a7b6175a-c63a-42e1-b82f-f2ca748fa6a7")
-		)
-		(instances
-			(project "Full-Adder"
-				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/5ed99f4b-d019-4b0a-b75a-e8347fe77ef5"
-					(reference "D27")
-					(unit 1)
-				)
-				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/7d90678c-2f19-4c17-a15d-1ebeb141b795"
-					(reference "D19")
-					(unit 1)
-				)
-				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/9208ef18-e167-4682-a4aa-811e6722c480"
-					(reference "D15")
-					(unit 1)
-				)
-				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/bdc1a47f-d27a-4509-b5cc-560d5c19b2ce"
-					(reference "D23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 160.02 120.65 270)
 		(unit 1)
@@ -1917,7 +1819,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31818165-7f28-4546-b95c-dec6cf9a6924")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR021"
 			(at 153.67 120.65 0)
 			(effects
 				(font
@@ -1968,19 +1870,19 @@
 		(instances
 			(project "Full-Adder"
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/5ed99f4b-d019-4b0a-b75a-e8347fe77ef5"
-					(reference "#PWR033")
+					(reference "#PWR036")
 					(unit 1)
 				)
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/7d90678c-2f19-4c17-a15d-1ebeb141b795"
-					(reference "#PWR023")
+					(reference "#PWR026")
 					(unit 1)
 				)
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/9208ef18-e167-4682-a4aa-811e6722c480"
-					(reference "#PWR018")
+					(reference "#PWR021")
 					(unit 1)
 				)
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/bdc1a47f-d27a-4509-b5cc-560d5c19b2ce"
-					(reference "#PWR028")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -1996,7 +1898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40295551-3a07-4cad-88b6-10cddea75a92")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR022"
 			(at 256.54 130.81 0)
 			(effects
 				(font
@@ -2047,19 +1949,117 @@
 		(instances
 			(project "Full-Adder"
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/5ed99f4b-d019-4b0a-b75a-e8347fe77ef5"
-					(reference "#PWR034")
+					(reference "#PWR037")
 					(unit 1)
 				)
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/7d90678c-2f19-4c17-a15d-1ebeb141b795"
-					(reference "#PWR024")
+					(reference "#PWR027")
 					(unit 1)
 				)
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/9208ef18-e167-4682-a4aa-811e6722c480"
-					(reference "#PWR019")
+					(reference "#PWR022")
 					(unit 1)
 				)
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/bdc1a47f-d27a-4509-b5cc-560d5c19b2ce"
-					(reference "#PWR029")
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 176.53 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "415f4036-0c95-4bae-ad5b-b3d3792d2f46")
+		(property "Reference" "D15"
+			(at 176.53 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 176.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 176.53 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 176.53 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 176.53 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 176.53 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 176.53 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab296a44-c65c-40c1-978f-600224f80a8a")
+		)
+		(pin "2"
+			(uuid "09a1f600-fdf9-4e13-8ebf-a1af89fdfc22")
+		)
+		(instances
+			(project "Full-Adder"
+				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/5ed99f4b-d019-4b0a-b75a-e8347fe77ef5"
+					(reference "D27")
+					(unit 1)
+				)
+				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/7d90678c-2f19-4c17-a15d-1ebeb141b795"
+					(reference "D19")
+					(unit 1)
+				)
+				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/9208ef18-e167-4682-a4aa-811e6722c480"
+					(reference "D15")
+					(unit 1)
+				)
+				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/bdc1a47f-d27a-4509-b5cc-560d5c19b2ce"
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -2075,7 +2075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "566c9a67-7b9f-45c6-b0a7-a30d105ab799")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR023"
 			(at 148.59 151.13 0)
 			(effects
 				(font
@@ -2126,117 +2126,19 @@
 		(instances
 			(project "Full-Adder"
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/5ed99f4b-d019-4b0a-b75a-e8347fe77ef5"
-					(reference "#PWR031")
+					(reference "#PWR038")
 					(unit 1)
 				)
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/7d90678c-2f19-4c17-a15d-1ebeb141b795"
-					(reference "#PWR021")
+					(reference "#PWR028")
 					(unit 1)
 				)
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/9208ef18-e167-4682-a4aa-811e6722c480"
-					(reference "#PWR016")
+					(reference "#PWR023")
 					(unit 1)
 				)
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/bdc1a47f-d27a-4509-b5cc-560d5c19b2ce"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4004")
-		(at 110.49 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58dd4d38-e4f6-48a3-8461-1983f6f0d94d")
-		(property "Reference" "D13"
-			(at 110.49 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4004"
-			(at 110.49 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 110.49 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 110.49 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
-			(at 110.49 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 110.49 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 110.49 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6582e836-d773-4886-bc48-d5c7a25cf4c3")
-		)
-		(pin "2"
-			(uuid "2d2970ef-828f-46c9-a807-604e1d6ca564")
-		)
-		(instances
-			(project "Full-Adder"
-				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/5ed99f4b-d019-4b0a-b75a-e8347fe77ef5"
-					(reference "D25")
-					(unit 1)
-				)
-				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/7d90678c-2f19-4c17-a15d-1ebeb141b795"
-					(reference "D17")
-					(unit 1)
-				)
-				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/9208ef18-e167-4682-a4aa-811e6722c480"
-					(reference "D13")
-					(unit 1)
-				)
-				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/bdc1a47f-d27a-4509-b5cc-560d5c19b2ce"
-					(reference "D21")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -2252,7 +2154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "590e0b74-2c8b-4caa-8335-5174d7d41b12")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR020"
 			(at 135.89 78.74 0)
 			(effects
 				(font
@@ -2303,42 +2205,43 @@
 		(instances
 			(project "Full-Adder"
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/5ed99f4b-d019-4b0a-b75a-e8347fe77ef5"
-					(reference "#PWR030")
+					(reference "#PWR035")
 					(unit 1)
 				)
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/7d90678c-2f19-4c17-a15d-1ebeb141b795"
-					(reference "#PWR020")
+					(reference "#PWR025")
 					(unit 1)
 				)
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/9208ef18-e167-4682-a4aa-811e6722c480"
-					(reference "#PWR015")
+					(reference "#PWR020")
 					(unit 1)
 				)
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/bdc1a47f-d27a-4509-b5cc-560d5c19b2ce"
-					(reference "#PWR025")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4004")
+		(lib_id "Diode:1N4148")
 		(at 111.76 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "82154ee6-d639-499e-944d-69383b37ac71")
-		(property "Reference" "D14"
-			(at 111.76 160.274 0)
+		(fields_autoplaced yes)
+		(uuid "7149ee70-674f-4e3f-af0f-3845a35bde4c")
+		(property "Reference" "D16"
+			(at 111.76 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1N4004"
+		(property "Value" "1N4148"
 			(at 111.76 162.56 0)
 			(effects
 				(font
@@ -2346,16 +2249,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 111.76 170.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 111.76 166.37 0)
 			(effects
 				(font
@@ -2364,7 +2258,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 111.76 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
 			(at 111.76 166.37 0)
 			(effects
 				(font
@@ -2392,27 +2295,125 @@
 			)
 		)
 		(pin "1"
-			(uuid "27141351-a5cb-4b07-a9e2-22dc9568fe0f")
+			(uuid "49b0996c-0637-4c0d-9b12-1181133acff5")
 		)
 		(pin "2"
-			(uuid "00c36423-8c09-47eb-ad4a-a6f34b8c7478")
+			(uuid "ee58bd08-b623-46b5-b0e5-3dcd36d7b099")
 		)
 		(instances
 			(project "Full-Adder"
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/5ed99f4b-d019-4b0a-b75a-e8347fe77ef5"
-					(reference "D26")
+					(reference "D28")
 					(unit 1)
 				)
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/7d90678c-2f19-4c17-a15d-1ebeb141b795"
-					(reference "D18")
+					(reference "D20")
 					(unit 1)
 				)
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/9208ef18-e167-4682-a4aa-811e6722c480"
-					(reference "D14")
+					(reference "D16")
 					(unit 1)
 				)
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/bdc1a47f-d27a-4509-b5cc-560d5c19b2ce"
-					(reference "D22")
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 176.53 29.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71f6b6c2-d320-4ae5-b4e4-4c0c0f63f32f")
+		(property "Reference" "D13"
+			(at 176.53 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 176.53 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 176.53 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 176.53 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 176.53 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 176.53 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 176.53 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5abfb67-0713-4d0c-ad32-6fb001763131")
+		)
+		(pin "2"
+			(uuid "784277ba-72e6-4a86-8821-1696e3649aa7")
+		)
+		(instances
+			(project "Full-Adder"
+				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/5ed99f4b-d019-4b0a-b75a-e8347fe77ef5"
+					(reference "D25")
+					(unit 1)
+				)
+				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/7d90678c-2f19-4c17-a15d-1ebeb141b795"
+					(reference "D17")
+					(unit 1)
+				)
+				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/9208ef18-e167-4682-a4aa-811e6722c480"
+					(reference "D13")
+					(unit 1)
+				)
+				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/bdc1a47f-d27a-4509-b5cc-560d5c19b2ce"
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -2428,7 +2429,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e5e2082-8641-428b-9298-58ba6451617f")
-		(property "Reference" "K4"
+		(property "Reference" "K3"
 			(at 176.53 110.49 90)
 			(effects
 				(font
@@ -2499,117 +2500,19 @@
 		(instances
 			(project "Full-Adder"
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/5ed99f4b-d019-4b0a-b75a-e8347fe77ef5"
-					(reference "K16")
+					(reference "K15")
 					(unit 1)
 				)
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/7d90678c-2f19-4c17-a15d-1ebeb141b795"
-					(reference "K8")
+					(reference "K7")
 					(unit 1)
 				)
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/9208ef18-e167-4682-a4aa-811e6722c480"
-					(reference "K4")
+					(reference "K3")
 					(unit 1)
 				)
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/bdc1a47f-d27a-4509-b5cc-560d5c19b2ce"
-					(reference "K12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4004")
-		(at 176.53 100.33 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3822d5f-2b5f-4244-9020-0fef42ee0513")
-		(property "Reference" "D16"
-			(at 176.53 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4004"
-			(at 176.53 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 176.53 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 176.53 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
-			(at 176.53 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 176.53 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 176.53 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a152d21-e089-472b-bb2e-4a1db73cd10e")
-		)
-		(pin "2"
-			(uuid "c97dc530-0ccb-4c52-beb1-e74202e92c77")
-		)
-		(instances
-			(project "Full-Adder"
-				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/5ed99f4b-d019-4b0a-b75a-e8347fe77ef5"
-					(reference "D28")
-					(unit 1)
-				)
-				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/7d90678c-2f19-4c17-a15d-1ebeb141b795"
-					(reference "D20")
-					(unit 1)
-				)
-				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/9208ef18-e167-4682-a4aa-811e6722c480"
-					(reference "D16")
-					(unit 1)
-				)
-				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/bdc1a47f-d27a-4509-b5cc-560d5c19b2ce"
-					(reference "D24")
+					(reference "K11")
 					(unit 1)
 				)
 			)
@@ -2625,7 +2528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e038f0b8-ea27-4cc5-b571-d1e62554baed")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR019"
 			(at 149.86 48.26 0)
 			(effects
 				(font
@@ -2676,19 +2579,117 @@
 		(instances
 			(project "Full-Adder"
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/5ed99f4b-d019-4b0a-b75a-e8347fe77ef5"
-					(reference "#PWR032")
+					(reference "#PWR034")
 					(unit 1)
 				)
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/7d90678c-2f19-4c17-a15d-1ebeb141b795"
-					(reference "#PWR022")
+					(reference "#PWR024")
 					(unit 1)
 				)
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/9208ef18-e167-4682-a4aa-811e6722c480"
-					(reference "#PWR017")
+					(reference "#PWR019")
 					(unit 1)
 				)
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/bdc1a47f-d27a-4509-b5cc-560d5c19b2ce"
-					(reference "#PWR027")
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 110.49 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e34802c0-42a0-428e-8b1d-dac472eff41f")
+		(property "Reference" "D14"
+			(at 110.49 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 110.49 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 110.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 110.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 110.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 110.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 110.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47025bf2-75f3-4a58-b8c6-e34ae84428b7")
+		)
+		(pin "2"
+			(uuid "f8ed0070-85fd-4c3e-afc1-ca6aeac7d0f9")
+		)
+		(instances
+			(project ""
+				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/5ed99f4b-d019-4b0a-b75a-e8347fe77ef5"
+					(reference "D26")
+					(unit 1)
+				)
+				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/7d90678c-2f19-4c17-a15d-1ebeb141b795"
+					(reference "D18")
+					(unit 1)
+				)
+				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/9208ef18-e167-4682-a4aa-811e6722c480"
+					(reference "D14")
+					(unit 1)
+				)
+				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/bdc1a47f-d27a-4509-b5cc-560d5c19b2ce"
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -2704,7 +2705,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ecf95175-3a4f-4175-817b-3edcff3014cb")
-		(property "Reference" "K2"
+		(property "Reference" "K4"
 			(at 111.76 120.65 90)
 			(effects
 				(font
@@ -2775,19 +2776,19 @@
 		(instances
 			(project "Full-Adder"
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/5ed99f4b-d019-4b0a-b75a-e8347fe77ef5"
-					(reference "K14")
+					(reference "K16")
 					(unit 1)
 				)
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/7d90678c-2f19-4c17-a15d-1ebeb141b795"
-					(reference "K6")
+					(reference "K8")
 					(unit 1)
 				)
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/9208ef18-e167-4682-a4aa-811e6722c480"
-					(reference "K2")
+					(reference "K4")
 					(unit 1)
 				)
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/bdc1a47f-d27a-4509-b5cc-560d5c19b2ce"
-					(reference "K10")
+					(reference "K12")
 					(unit 1)
 				)
 			)
@@ -2803,7 +2804,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef97c61e-d9da-4f4c-8323-91574c6db15c")
-		(property "Reference" "K3"
+		(property "Reference" "K1"
 			(at 176.276 38.862 90)
 			(effects
 				(font
@@ -2874,19 +2875,19 @@
 		(instances
 			(project "Full-Adder"
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/5ed99f4b-d019-4b0a-b75a-e8347fe77ef5"
-					(reference "K15")
+					(reference "K13")
 					(unit 1)
 				)
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/7d90678c-2f19-4c17-a15d-1ebeb141b795"
-					(reference "K7")
+					(reference "K5")
 					(unit 1)
 				)
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/9208ef18-e167-4682-a4aa-811e6722c480"
-					(reference "K3")
+					(reference "K1")
 					(unit 1)
 				)
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/bdc1a47f-d27a-4509-b5cc-560d5c19b2ce"
-					(reference "K11")
+					(reference "K9")
 					(unit 1)
 				)
 			)
@@ -2902,7 +2903,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fca522ef-f0ab-41a1-9f57-d39600b79c3c")
-		(property "Reference" "K1"
+		(property "Reference" "K2"
 			(at 110.49 48.26 90)
 			(effects
 				(font
@@ -2973,19 +2974,19 @@
 		(instances
 			(project "Full-Adder"
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/5ed99f4b-d019-4b0a-b75a-e8347fe77ef5"
-					(reference "K13")
+					(reference "K14")
 					(unit 1)
 				)
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/7d90678c-2f19-4c17-a15d-1ebeb141b795"
-					(reference "K5")
+					(reference "K6")
 					(unit 1)
 				)
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/9208ef18-e167-4682-a4aa-811e6722c480"
-					(reference "K1")
+					(reference "K2")
 					(unit 1)
 				)
 				(path "/30ad99b4-9585-4d59-b5a3-56c2b2b087e2/bdc1a47f-d27a-4509-b5cc-560d5c19b2ce"
-					(reference "K9")
+					(reference "K10")
 					(unit 1)
 				)
 			)
