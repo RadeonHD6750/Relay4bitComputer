@@ -1,0 +1,104 @@
+
+(rules PCB Full-Adder
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 3207)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.8)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.6)
+    )
+  )
+  (rule
+    (width 300.0)
+    (clear 300.0)
+    (clear 150.0 (type smd_to_turn_gap))
+    (clear 400.0 (type default_POWER,Default))
+    (clear 75.0 (type smd_smd))
+    (clear 400.0 (type smd_POWER,Default))
+    (clear 400.0 (type "kicad_default"_POWER,Default))
+    (clear 400.0 (type POWER,Default_POWER,Default))
+  )
+  (padstack "Via[0-1]_600:300_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:300_um" "Via[0-1]_600:300_um" default
+  )
+  (via 
+    "Via[0-1]_600:300_um-kicad_default" "Via[0-1]_600:300_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_600:300_um-POWER,Default" "Via[0-1]_600:300_um" POWER,Default
+  )
+  (via_rule
+    default "Via[0-1]_600:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:300_um-kicad_default"
+  )
+  (via_rule
+    POWER,Default "Via[0-1]_600:300_um-POWER,Default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "/Full-Adder-1bit1/A-Input" "/Full-Adder-1bit/A-Input" "/Full-Adder-1bit/B-Input" "/Full-Adder-1bit1/B-Input" "/Full-Adder-1bit2/A-Input" "/Full-Adder-1bit2/B-Input" "/Full-Adder-1bit3/A-Input" "/Full-Adder-1bit3/B-Input"
+    "/Full-Adder-1bit3/Sum" "/Full-Adder-1bit1/Sum" "/Full-Adder-1bit/Sum" "/Full-Adder-1bit2/Sum" "/Full-Adder-1bit/Invert Carry In" "/Full-Adder-1bit/Carry In" "/Full-Adder-1bit3/Invert Carry Out" "/Full-Adder-1bit3/Carry Out"
+    "/Full-Adder-1bit1/Invert Carry Out" "/Full-Adder-1bit/Invert Carry Out" "Net-(K1-Pad11)" "Net-(K1-Pad9)" "Net-(K1-Pad8)" "Net-(K1-Pad6)" "/Full-Adder-1bit/Carry Out" "Net-(K3-Pad9)"
+    "Net-(K3-Pad11)" "Net-(K7-Pad9)" "/Full-Adder-1bit1/Carry Out" "Net-(K7-Pad11)" "Net-(K11-Pad11)" "Net-(K10-Pad11)" "Net-(K10-Pad9)" "/Full-Adder-1bit2/Invert Carry Out"
+    "Net-(K11-Pad9)" "/Full-Adder-1bit2/Carry Out" "Net-(K10-Pad6)" "Net-(K10-Pad8)" "Net-(K13-Pad9)" "Net-(K13-Pad8)" "Net-(K13-Pad6)" "Net-(K13-Pad11)"
+    "Net-(K15-Pad9)" "Net-(K15-Pad11)" "Net-(D1-A)" "Net-(D2-A)" "Net-(D3-A)" "Net-(D4-A)" "Net-(D5-A)" "Net-(D6-A)"
+    "Net-(D7-A)" "Net-(D8-A)" "Net-(D9-A)" "Net-(D10-A)" "Net-(D11-A)" "Net-(D12-A)" "Net-(K5-Pad9)" "Net-(K5-Pad8)"
+    "Net-(K5-Pad11)" "Net-(K5-Pad6)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class POWER,Default
+    GND +12V
+    (clearance_class POWER,Default)
+    (via_rule POWER,Default)
+    (rule
+      (width 1200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
