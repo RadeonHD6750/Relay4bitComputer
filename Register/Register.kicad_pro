@@ -504,7 +504,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./Register-gbr",
       "pos_files": "",
       "specctra_dsn": "Register.dsn",
       "step": "",

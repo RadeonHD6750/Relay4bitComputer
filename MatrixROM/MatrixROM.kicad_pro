@@ -517,7 +517,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./Matrix-gbr",
       "pos_files": "",
       "specctra_dsn": "MatrixROM.dsn",
       "step": "",
