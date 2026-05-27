@@ -1905,7 +1905,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 72.39) (xy 97.79 72.39)
+			(xy 58.42 48.26) (xy 97.79 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2025,7 +2025,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 72.39) (xy 97.79 81.28)
+			(xy 97.79 48.26) (xy 97.79 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2045,7 +2045,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 69.85) (xy 342.9 91.44)
+			(xy 342.9 45.72) (xy 342.9 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2325,7 +2325,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 59.69) (xy 341.63 88.9)
+			(xy 341.63 31.75) (xy 341.63 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2505,7 +2505,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 59.69) (xy 341.63 59.69)
+			(xy 58.42 31.75) (xy 341.63 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2795,7 +2795,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 62.23) (xy 102.87 101.6)
+			(xy 102.87 34.29) (xy 102.87 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3075,7 +3075,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 62.23) (xy 102.87 62.23)
+			(xy 58.42 34.29) (xy 102.87 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3165,7 +3165,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 69.85) (xy 342.9 69.85)
+			(xy 58.42 45.72) (xy 342.9 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3693,7 +3693,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "253d1876-6689-4280-a1a8-9bcb2334af53")
 		(property "Reference" "D7"
 			(at 240.03 59.69 0)
@@ -3773,16 +3772,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 53.34 59.69 0)
+		(at 53.34 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2581a8aa-0023-4540-9e45-a1f1b98db157")
 		(property "Reference" "J3"
-			(at 53.975 54.61 0)
+			(at 53.975 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3790,7 +3788,7 @@
 			)
 		)
 		(property "Value" "Self Loop2 Enble"
-			(at 53.975 57.15 0)
+			(at 53.975 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3798,7 +3796,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 59.69 0)
+			(at 53.34 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3807,7 +3805,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 59.69 0)
+			(at 53.34 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3816,7 +3814,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 53.34 59.69 0)
+			(at 53.34 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4056,7 +4054,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "467a7392-2acf-47a0-970a-43b5855bcff6")
 		(property "Reference" "D6"
 			(at 179.07 59.69 0)
@@ -4653,7 +4650,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 53.34 69.85 0)
+		(at 53.34 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4662,7 +4659,7 @@
 		(fields_autoplaced yes)
 		(uuid "71387c98-cb9b-4b35-8240-b2b6fd8f1317")
 		(property "Reference" "J1"
-			(at 53.975 64.77 0)
+			(at 53.975 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4670,7 +4667,7 @@
 			)
 		)
 		(property "Value" "Self Loop1 Enble"
-			(at 53.975 67.31 0)
+			(at 53.975 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4678,7 +4675,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 69.85 0)
+			(at 53.34 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4687,7 +4684,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 69.85 0)
+			(at 53.34 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4696,7 +4693,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 53.34 69.85 0)
+			(at 53.34 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5611,7 +5608,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b3d8b4ab-f837-4550-8c6a-f5bf964886dc")
 		(property "Reference" "D8"
 			(at 300.99 60.96 0)
@@ -5698,7 +5694,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c2484098-ddad-425a-a0a0-df2cab499ffd")
 		(property "Reference" "D5"
 			(at 118.11 60.96 0)
