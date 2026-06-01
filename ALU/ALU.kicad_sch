@@ -1132,6 +1132,36 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Sign"
+		(exclude_from_sim no)
+		(at 43.18 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1d8342b0-edb3-4adf-a68f-2d313ff37f33")
+	)
+	(text "Carry"
+		(exclude_from_sim no)
+		(at 43.434 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "74d5e10b-701f-4819-8f1f-732a5af5be7a")
+	)
+	(text "Zero"
+		(exclude_from_sim no)
+		(at 43.18 170.434 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b1e3637b-5a8d-47a4-a2a8-ed39611faaef")
+	)
 	(text "Read Flag Carry"
 		(exclude_from_sim no)
 		(at 36.068 63.754 0)
