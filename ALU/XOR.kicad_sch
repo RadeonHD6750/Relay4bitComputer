@@ -1274,7 +1274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "228f7be1-4df7-45b6-8a77-ff0c03c0c825")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR?"
 			(at 100.33 72.39 0)
 			(effects
 				(font
@@ -1340,6 +1340,24 @@
 					(unit 1)
 				)
 			)
+			(project "Arithmetic"
+				(path "/ff2c3f34-45d1-405f-b0e8-64ae4d848c28/82a9e31a-cee7-4e59-967e-20bea0a1f415"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/ff2c3f34-45d1-405f-b0e8-64ae4d848c28/8c36c8f0-4239-4d27-9a84-901a6daf9dfd"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/ff2c3f34-45d1-405f-b0e8-64ae4d848c28/cd04fdcf-47ce-4203-b32d-9ec4cc2f7759"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/ff2c3f34-45d1-405f-b0e8-64ae4d848c28/d4f97b02-a994-4f3d-b7d2-a72ed4f56fb5"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1352,7 +1370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "541489a8-ffee-496c-b3fa-e8abcd7198de")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR?"
 			(at 149.86 58.42 0)
 			(effects
 				(font
@@ -1419,6 +1437,24 @@
 					(unit 1)
 				)
 			)
+			(project "Arithmetic"
+				(path "/ff2c3f34-45d1-405f-b0e8-64ae4d848c28/82a9e31a-cee7-4e59-967e-20bea0a1f415"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/ff2c3f34-45d1-405f-b0e8-64ae4d848c28/8c36c8f0-4239-4d27-9a84-901a6daf9dfd"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/ff2c3f34-45d1-405f-b0e8-64ae4d848c28/cd04fdcf-47ce-4203-b32d-9ec4cc2f7759"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/ff2c3f34-45d1-405f-b0e8-64ae4d848c28/d4f97b02-a994-4f3d-b7d2-a72ed4f56fb5"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1431,7 +1467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f71ffd7-3db9-437a-84dd-44a4c9c6d2d9")
-		(property "Reference" "K9"
+		(property "Reference" "K?"
 			(at 127 48.26 90)
 			(effects
 				(font
@@ -1518,6 +1554,24 @@
 					(unit 1)
 				)
 			)
+			(project "Arithmetic"
+				(path "/ff2c3f34-45d1-405f-b0e8-64ae4d848c28/82a9e31a-cee7-4e59-967e-20bea0a1f415"
+					(reference "K?")
+					(unit 1)
+				)
+				(path "/ff2c3f34-45d1-405f-b0e8-64ae4d848c28/8c36c8f0-4239-4d27-9a84-901a6daf9dfd"
+					(reference "K?")
+					(unit 1)
+				)
+				(path "/ff2c3f34-45d1-405f-b0e8-64ae4d848c28/cd04fdcf-47ce-4203-b32d-9ec4cc2f7759"
+					(reference "K?")
+					(unit 1)
+				)
+				(path "/ff2c3f34-45d1-405f-b0e8-64ae4d848c28/d4f97b02-a994-4f3d-b7d2-a72ed4f56fb5"
+					(reference "K?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1530,7 +1584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1781332-a56a-40e4-b95a-87a89575ca82")
-		(property "Reference" "K10"
+		(property "Reference" "K?"
 			(at 127 105.41 90)
 			(effects
 				(font
@@ -1617,6 +1671,24 @@
 					(unit 1)
 				)
 			)
+			(project "Arithmetic"
+				(path "/ff2c3f34-45d1-405f-b0e8-64ae4d848c28/82a9e31a-cee7-4e59-967e-20bea0a1f415"
+					(reference "K?")
+					(unit 1)
+				)
+				(path "/ff2c3f34-45d1-405f-b0e8-64ae4d848c28/8c36c8f0-4239-4d27-9a84-901a6daf9dfd"
+					(reference "K?")
+					(unit 1)
+				)
+				(path "/ff2c3f34-45d1-405f-b0e8-64ae4d848c28/cd04fdcf-47ce-4203-b32d-9ec4cc2f7759"
+					(reference "K?")
+					(unit 1)
+				)
+				(path "/ff2c3f34-45d1-405f-b0e8-64ae4d848c28/d4f97b02-a994-4f3d-b7d2-a72ed4f56fb5"
+					(reference "K?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1629,7 +1701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b76a7479-a00a-431a-9715-164e421c58d3")
-		(property "Reference" "D9"
+		(property "Reference" "D?"
 			(at 127 35.56 0)
 			(effects
 				(font
@@ -1715,6 +1787,24 @@
 					(unit 1)
 				)
 			)
+			(project "Arithmetic"
+				(path "/ff2c3f34-45d1-405f-b0e8-64ae4d848c28/82a9e31a-cee7-4e59-967e-20bea0a1f415"
+					(reference "D?")
+					(unit 1)
+				)
+				(path "/ff2c3f34-45d1-405f-b0e8-64ae4d848c28/8c36c8f0-4239-4d27-9a84-901a6daf9dfd"
+					(reference "D?")
+					(unit 1)
+				)
+				(path "/ff2c3f34-45d1-405f-b0e8-64ae4d848c28/cd04fdcf-47ce-4203-b32d-9ec4cc2f7759"
+					(reference "D?")
+					(unit 1)
+				)
+				(path "/ff2c3f34-45d1-405f-b0e8-64ae4d848c28/d4f97b02-a994-4f3d-b7d2-a72ed4f56fb5"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1727,7 +1817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cba02883-71f4-46ba-9ce6-2f52f9266bf0")
-		(property "Reference" "D10"
+		(property "Reference" "D?"
 			(at 127 92.71 0)
 			(effects
 				(font
@@ -1813,6 +1903,24 @@
 					(unit 1)
 				)
 			)
+			(project "Arithmetic"
+				(path "/ff2c3f34-45d1-405f-b0e8-64ae4d848c28/82a9e31a-cee7-4e59-967e-20bea0a1f415"
+					(reference "D?")
+					(unit 1)
+				)
+				(path "/ff2c3f34-45d1-405f-b0e8-64ae4d848c28/8c36c8f0-4239-4d27-9a84-901a6daf9dfd"
+					(reference "D?")
+					(unit 1)
+				)
+				(path "/ff2c3f34-45d1-405f-b0e8-64ae4d848c28/cd04fdcf-47ce-4203-b32d-9ec4cc2f7759"
+					(reference "D?")
+					(unit 1)
+				)
+				(path "/ff2c3f34-45d1-405f-b0e8-64ae4d848c28/d4f97b02-a994-4f3d-b7d2-a72ed4f56fb5"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1825,7 +1933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3fe6bdb-af3a-403c-a8ad-c82869e02f07")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR?"
 			(at 149.86 115.57 0)
 			(effects
 				(font
@@ -1889,6 +1997,24 @@
 				)
 				(path "/4526a5f4-aaff-46e1-8db2-4352c5ef1bbc/a1298717-5554-4b78-b224-3778956da833/d4f97b02-a994-4f3d-b7d2-a72ed4f56fb5"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+			(project "Arithmetic"
+				(path "/ff2c3f34-45d1-405f-b0e8-64ae4d848c28/82a9e31a-cee7-4e59-967e-20bea0a1f415"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/ff2c3f34-45d1-405f-b0e8-64ae4d848c28/8c36c8f0-4239-4d27-9a84-901a6daf9dfd"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/ff2c3f34-45d1-405f-b0e8-64ae4d848c28/cd04fdcf-47ce-4203-b32d-9ec4cc2f7759"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/ff2c3f34-45d1-405f-b0e8-64ae4d848c28/d4f97b02-a994-4f3d-b7d2-a72ed4f56fb5"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)

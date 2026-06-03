@@ -1366,7 +1366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "097d23fc-fcd3-45ca-8a2c-fac035ab29fe")
-		(property "Reference" "D14"
+		(property "Reference" "D3"
 			(at 170.18 58.42 0)
 			(effects
 				(font
@@ -1436,7 +1436,7 @@
 		(instances
 			(project "ALU"
 				(path "/4526a5f4-aaff-46e1-8db2-4352c5ef1bbc/f81c7b88-1a4d-4e5c-9572-fe9281a7e302"
-					(reference "D14")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -1452,7 +1452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2887789f-a03c-488c-9430-e5e69fda5d0d")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR09"
 			(at 233.68 81.28 0)
 			(effects
 				(font
@@ -1503,7 +1503,7 @@
 		(instances
 			(project "ALU"
 				(path "/4526a5f4-aaff-46e1-8db2-4352c5ef1bbc/f81c7b88-1a4d-4e5c-9572-fe9281a7e302"
-					(reference "#PWR025")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -1519,7 +1519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4593162d-0ac4-4ad8-a18e-a898e5dbf101")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR07"
 			(at 151.13 81.28 0)
 			(effects
 				(font
@@ -1570,7 +1570,7 @@
 		(instances
 			(project "ALU"
 				(path "/4526a5f4-aaff-46e1-8db2-4352c5ef1bbc/f81c7b88-1a4d-4e5c-9572-fe9281a7e302"
-					(reference "#PWR023")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -1586,7 +1586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49245ae2-a196-439c-8c22-47c7317ea727")
-		(property "Reference" "K12"
+		(property "Reference" "K1"
 			(at 82.55 71.12 90)
 			(effects
 				(font
@@ -1657,7 +1657,7 @@
 		(instances
 			(project "ALU"
 				(path "/4526a5f4-aaff-46e1-8db2-4352c5ef1bbc/f81c7b88-1a4d-4e5c-9572-fe9281a7e302"
-					(reference "K12")
+					(reference "K1")
 					(unit 1)
 				)
 			)
@@ -1673,7 +1673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b9fb6a0-bcac-4897-8308-2ef09ebf21ff")
-		(property "Reference" "D12"
+		(property "Reference" "D1"
 			(at 82.55 58.42 0)
 			(effects
 				(font
@@ -1743,7 +1743,7 @@
 		(instances
 			(project "ALU"
 				(path "/4526a5f4-aaff-46e1-8db2-4352c5ef1bbc/f81c7b88-1a4d-4e5c-9572-fe9281a7e302"
-					(reference "D12")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -1759,7 +1759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "578f4f75-89ea-494e-9a8d-d6eca334d4b1")
-		(property "Reference" "D15"
+		(property "Reference" "D4"
 			(at 210.82 58.42 0)
 			(effects
 				(font
@@ -1829,7 +1829,7 @@
 		(instances
 			(project "ALU"
 				(path "/4526a5f4-aaff-46e1-8db2-4352c5ef1bbc/f81c7b88-1a4d-4e5c-9572-fe9281a7e302"
-					(reference "D15")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -1845,7 +1845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b5da15d-b0d0-4ca0-bcb4-fbdeecc51c51")
-		(property "Reference" "K13"
+		(property "Reference" "K2"
 			(at 128.27 71.12 90)
 			(effects
 				(font
@@ -1916,7 +1916,7 @@
 		(instances
 			(project "ALU"
 				(path "/4526a5f4-aaff-46e1-8db2-4352c5ef1bbc/f81c7b88-1a4d-4e5c-9572-fe9281a7e302"
-					(reference "K13")
+					(reference "K2")
 					(unit 1)
 				)
 			)
@@ -1932,7 +1932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa9026a5-0551-466e-99a3-64f51bbc3962")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR08"
 			(at 193.04 81.28 0)
 			(effects
 				(font
@@ -1983,7 +1983,7 @@
 		(instances
 			(project "ALU"
 				(path "/4526a5f4-aaff-46e1-8db2-4352c5ef1bbc/f81c7b88-1a4d-4e5c-9572-fe9281a7e302"
-					(reference "#PWR024")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -1999,7 +1999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c88e8149-c0c9-46f9-a29b-b64c984d4a8c")
-		(property "Reference" "D13"
+		(property "Reference" "D2"
 			(at 128.27 58.42 0)
 			(effects
 				(font
@@ -2069,7 +2069,7 @@
 		(instances
 			(project "ALU"
 				(path "/4526a5f4-aaff-46e1-8db2-4352c5ef1bbc/f81c7b88-1a4d-4e5c-9572-fe9281a7e302"
-					(reference "D13")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -2085,7 +2085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d892d292-d1e7-4c29-b736-eb18b8eb02e0")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR06"
 			(at 105.41 81.28 0)
 			(effects
 				(font
@@ -2136,7 +2136,7 @@
 		(instances
 			(project "ALU"
 				(path "/4526a5f4-aaff-46e1-8db2-4352c5ef1bbc/f81c7b88-1a4d-4e5c-9572-fe9281a7e302"
-					(reference "#PWR022")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -2152,7 +2152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daf5b045-ad07-4b6a-abd7-29e5c9d8aecd")
-		(property "Reference" "K15"
+		(property "Reference" "K4"
 			(at 210.82 71.12 90)
 			(effects
 				(font
@@ -2223,7 +2223,7 @@
 		(instances
 			(project "ALU"
 				(path "/4526a5f4-aaff-46e1-8db2-4352c5ef1bbc/f81c7b88-1a4d-4e5c-9572-fe9281a7e302"
-					(reference "K15")
+					(reference "K4")
 					(unit 1)
 				)
 			)
@@ -2239,7 +2239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2927e23-5721-4fa9-b8a6-d2e127357baa")
-		(property "Reference" "K14"
+		(property "Reference" "K3"
 			(at 170.18 71.12 90)
 			(effects
 				(font
@@ -2310,7 +2310,7 @@
 		(instances
 			(project "ALU"
 				(path "/4526a5f4-aaff-46e1-8db2-4352c5ef1bbc/f81c7b88-1a4d-4e5c-9572-fe9281a7e302"
-					(reference "K14")
+					(reference "K3")
 					(unit 1)
 				)
 			)

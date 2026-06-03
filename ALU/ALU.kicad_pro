@@ -623,26 +623,6 @@
       "Logic Operation"
     ],
     [
-      "cd04fdcf-47ce-4203-b32d-9ec4cc2f7759",
-      "XOR"
-    ],
-    [
-      "82a9e31a-cee7-4e59-967e-20bea0a1f415",
-      "XOR1"
-    ],
-    [
-      "8c36c8f0-4239-4d27-9a84-901a6daf9dfd",
-      "XOR2"
-    ],
-    [
-      "d4f97b02-a994-4f3d-b7d2-a72ed4f56fb5",
-      "XOR3"
-    ],
-    [
-      "80ee7d11-9fc6-493e-930e-d6656983885c",
-      "FlagCarry Invert"
-    ],
-    [
       "f81c7b88-1a4d-4e5c-9572-fe9281a7e302",
       "ZeroDetect"
     ]
