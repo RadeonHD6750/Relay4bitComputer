@@ -1,0 +1,106 @@
+
+(rules PCB ALU
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 1284)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.1)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.9)
+    )
+  )
+  (rule
+    (width 400.0)
+    (clear 300.0)
+    (clear 200.0 (type smd_to_turn_gap))
+    (clear 500.0 (type default_POWER,Default))
+    (clear 75.0 (type smd_smd))
+    (clear 500.0 (type smd_POWER,Default))
+    (clear 500.0 (type "kicad_default"_POWER,Default))
+    (clear 500.0 (type POWER,Default_POWER,Default))
+  )
+  (padstack "Via[0-1]_600:300_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:300_um" "Via[0-1]_600:300_um" default
+  )
+  (via 
+    "Via[0-1]_600:300_um-kicad_default" "Via[0-1]_600:300_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_600:300_um-POWER,Default" "Via[0-1]_600:300_um" POWER,Default
+  )
+  (via_rule
+    default "Via[0-1]_600:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:300_um-kicad_default"
+  )
+  (via_rule
+    POWER,Default "Via[0-1]_600:300_um-POWER,Default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 400.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    /Arithmetic/Sign "/Arithmetic/Arithmetic-Data-B0" "/Arithmetic/Arithmetic-Data-B1" "/Arithmetic/Arithmetic-Data-B3" /ZeroDetect/Data3 /ZeroDetect/Data2 /ZeroDetect/Data1 /ZeroDetect/Data0
+    "/Arithmetic/Arithmetic-Data-B2" "/Arithmetic/Arithmetic-Data-A1" "/Arithmetic/Arithmetic-Data-A2" "/Arithmetic/Arithmetic-Data-A3" "/Logic Operation/Not_A_3" "/Logic Operation/Not_A_2" "/Logic Operation/Not_A_0" "/Logic Operation/Not_A_1"
+    "/Logic Operation/A_AND_B_3" "/Logic Operation/A_AND_B_1" "/Logic Operation/A_AND_B_2" "/Logic Operation/A_AND_B_0" "/Logic Operation/A_OR_B_2" "/Logic Operation/A_OR_B_1" "/Logic Operation/A_OR_B_0" "/Logic Operation/A_OR_B_4"
+    "/Logic Operation/A_XOR_B_3" "/Logic Operation/A_XOR_B_2" "/Logic Operation/A_XOR_B_0" "/Logic Operation/A_XOR_B_1" /ZeroDetect/End /ZeroDetect/Start "unconnected-(K1-Pad11)" "Net-(K1-Pad6)"
+    "/Arithmetic/Arithmetic-Data-A0" "unconnected-(K1-Pad13)" "unconnected-(K1-Pad9)" "unconnected-(K2-Pad9)" "unconnected-(K2-Pad11)" "unconnected-(K2-Pad13)" "Net-(K3-Pad6)" "/Arithmetic/Carry In Chain"
+    "unconnected-(K3-Pad11)" "unconnected-(K3-Pad13)" "unconnected-(K3-Pad9)" "unconnected-(K4-Pad9)" "unconnected-(K4-Pad11)" "unconnected-(K4-Pad13)" "/Arithmetic/Carry Out Invert Chain" "/Arithmetic/Carry Out Chain"
+    "/Arithmetic/Carry In Invert Chain" "/Arithmetic/Carry Invert" "unconnected-(J6-Pin_4-Pad4)" "/Arithmetic/Carry In" "/Arithmetic/From Flag Carry" /Arithmetic/Result2 /Arithmetic/Result3 /Arithmetic/Result1
+    /Arithmetic/Result0 "Net-(J18-Pin_3)" "Net-(J18-Pin_4)" "Net-(J18-Pin_1)" "unconnected-(J18-Pin_7-Pad7)" "Net-(J18-Pin_5)" "Net-(J18-Pin_2)" "unconnected-(J18-Pin_6-Pad6)"
+    "unconnected-(J18-Pin_8-Pad8)" "unconnected-(J26-Pin_4-Pad4)" "unconnected-(J37-Pin_4-Pad4)" "unconnected-(K1-Pad8)" "Net-(K2-Pad6)" "unconnected-(K2-Pad8)" "unconnected-(K3-Pad8)" "unconnected-(K4-Pad8)"
+    "Net-(D5-A)" "Net-(D6-A)" "Net-(D7-A)" "Net-(D8-A)" "Net-(D9-A)" "Net-(D10-A)" "Net-(D11-A)" "unconnected-(J46-Pin_4-Pad4)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 400.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class POWER,Default
+    GND +12V
+    (clearance_class POWER,Default)
+    (via_rule POWER,Default)
+    (rule
+      (width 1200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

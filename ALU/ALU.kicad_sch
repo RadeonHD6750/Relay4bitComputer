@@ -1546,6 +1546,12 @@
 		(uuid "03a96d9a-4a63-4d42-a391-8571ba82b888")
 	)
 	(junction
+		(at 45.72 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05e5e9a4-c564-48bf-8607-1ab05fdd9597")
+	)
+	(junction
 		(at 226.06 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1652,6 +1658,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76c90c56-e173-40b0-9eba-75e31c1815b2")
+	)
+	(junction
+		(at 55.88 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7965abc3-89da-4c10-84c0-2119565f53d6")
 	)
 	(junction
 		(at 55.88 52.07)
@@ -1879,6 +1891,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 147.32) (xy 55.88 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04a2af72-4e77-46fd-a607-4c2f35b0ad9c")
+	)
+	(wire
+		(pts
 			(xy 185.42 97.79) (xy 193.04 97.79)
 		)
 		(stroke
@@ -1906,6 +1928,16 @@
 			(type default)
 		)
 		(uuid "0841d1a1-21b9-4711-96cf-8daa4ffe68bb")
+	)
+	(wire
+		(pts
+			(xy 27.94 144.78) (xy 27.94 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bf059a7-bc8d-4673-b624-1dc64d14541a")
 	)
 	(wire
 		(pts
@@ -2129,6 +2161,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 151.13) (xy 45.72 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dce31a2-293f-4f4c-ae70-339206455c28")
+	)
+	(wire
+		(pts
 			(xy 39.37 59.69) (xy 76.2 59.69)
 		)
 		(stroke
@@ -2156,6 +2198,16 @@
 			(type default)
 		)
 		(uuid "217ce729-716d-44d2-96e6-4de6c9075db0")
+	)
+	(wire
+		(pts
+			(xy 71.12 149.86) (xy 71.12 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2182cb89-6883-4eb8-9944-74663e865531")
 	)
 	(wire
 		(pts
@@ -2269,6 +2321,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 147.32) (xy 55.88 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eb859a9-a991-4d12-aa9a-7413296ecc69")
+	)
+	(wire
+		(pts
 			(xy 121.92 87.63) (xy 113.03 87.63)
 		)
 		(stroke
@@ -2369,13 +2431,23 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 156.21) (xy 45.72 137.16)
+			(xy 45.72 156.21) (xy 45.72 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3dbc810f-7244-4944-ba8e-82620d7ee60a")
+	)
+	(wire
+		(pts
+			(xy 24.13 144.78) (xy 27.94 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f30e3b2-54d7-4eda-8658-543af621b016")
 	)
 	(wire
 		(pts
@@ -3019,6 +3091,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 149.86) (xy 71.12 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79d904dc-2aad-43c8-84fa-7b034b8e94cf")
+	)
+	(wire
+		(pts
 			(xy 161.29 137.16) (xy 120.65 137.16)
 		)
 		(stroke
@@ -3056,6 +3138,16 @@
 			(type default)
 		)
 		(uuid "7da257cd-c6fb-49c5-a835-f7265076f20c")
+	)
+	(wire
+		(pts
+			(xy 27.94 151.13) (xy 45.72 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f3cae43-9870-4c5a-9ed1-fb7ef3871921")
 	)
 	(wire
 		(pts
@@ -3259,7 +3351,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 52.07) (xy 55.88 158.75)
+			(xy 55.88 52.07) (xy 55.88 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5678,6 +5770,80 @@
 			(project "ALU"
 				(path "/4526a5f4-aaff-46e1-8db2-4352c5ef1bbc"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 19.05 147.32 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f883efa-a97c-4f95-95a8-5e539135dd01")
+		(property "Reference" "J46"
+			(at 19.685 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Flag Register"
+			(at 19.685 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 19.05 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 19.05 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 19.05 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "00ace3c9-b817-4f34-9c3a-f4f08bf7ae62")
+		)
+		(pin "2"
+			(uuid "a971048b-4f8a-48fb-91f2-3041f2a4af33")
+		)
+		(pin "1"
+			(uuid "be2bfaed-9e8a-4c15-8bf8-e4f9f95e99bc")
+		)
+		(pin "4"
+			(uuid "539d0a9b-8da9-4af9-a6ba-2d0461b84808")
+		)
+		(instances
+			(project "ALU"
+				(path "/4526a5f4-aaff-46e1-8db2-4352c5ef1bbc"
+					(reference "J46")
 					(unit 1)
 				)
 			)

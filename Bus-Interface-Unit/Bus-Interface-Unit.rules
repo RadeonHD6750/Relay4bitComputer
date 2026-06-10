@@ -1,0 +1,103 @@
+
+(rules PCB Bus-Interface-Unit
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 1816)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+  )
+  (rule
+    (width 500.0)
+    (clear 400.0)
+    (clear 250.0 (type smd_to_turn_gap))
+    (clear 100.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_600:300_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:300_um" "Via[0-1]_600:300_um" default
+  )
+  (via 
+    "Via[0-1]_600:300_um-kicad_default" "Via[0-1]_600:300_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_600:300_um-POWER,Default" "Via[0-1]_600:300_um" POWER,Default
+  )
+  (via_rule
+    default "Via[0-1]_600:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:300_um-kicad_default"
+  )
+  (via_rule
+    POWER,Default "Via[0-1]_600:300_um-POWER,Default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 500.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "Net-(J1-Pin_1)" "Net-(J1-Pin_9)" "Net-(J1-Pin_2)" "Net-(J1-Pin_5)" "Net-(J1-Pin_6)" "Net-(J1-Pin_15)" "Net-(J1-Pin_12)" "Net-(J1-Pin_4)"
+    "Net-(J1-Pin_8)" "Net-(J1-Pin_14)" "Net-(J1-Pin_11)" "Net-(J1-Pin_10)" "Net-(J1-Pin_7)" "Net-(J1-Pin_13)" "Net-(J1-Pin_16)" "Net-(J1-Pin_3)"
+    "Net-(J4-Pin_3)" "Net-(J4-Pin_15)" "Net-(J4-Pin_7)" "Net-(J4-Pin_2)" "Net-(J16-Pin_2)" "Net-(J4-Pin_5)" "Net-(J16-Pin_1)" "Net-(J4-Pin_13)"
+    "Net-(J16-Pin_3)" "Net-(J4-Pin_4)" "Net-(J16-Pin_4)" "Net-(J4-Pin_1)" "Net-(J4-Pin_14)" "Net-(J4-Pin_8)" "Net-(J4-Pin_6)" "Net-(J4-Pin_16)"
+    "Net-(J19-Pin_8)" "Net-(J19-Pin_3)" "Net-(J19-Pin_12)" "Net-(J19-Pin_10)" "Net-(J19-Pin_6)" "Net-(J19-Pin_7)" "Net-(J19-Pin_13)" "Net-(J19-Pin_9)"
+    "Net-(J19-Pin_15)" "Net-(J19-Pin_1)" "Net-(J19-Pin_2)" "Net-(J19-Pin_4)" "Net-(J19-Pin_16)" "Net-(J19-Pin_14)" "Net-(J19-Pin_5)" "Net-(J19-Pin_11)"
+    "Net-(J10-Pin_3)" "Net-(J10-Pin_30)" "Net-(J10-Pin_10)" "Net-(J10-Pin_14)" "Net-(J10-Pin_17)" "Net-(J10-Pin_9)" "Net-(J10-Pin_13)" "Net-(J10-Pin_16)"
+    "Net-(J10-Pin_25)" "Net-(J10-Pin_19)" "Net-(J10-Pin_28)" "Net-(J10-Pin_27)" "Net-(J10-Pin_24)" "Net-(J10-Pin_21)" "Net-(J10-Pin_26)" "Net-(J10-Pin_4)"
+    "Net-(J10-Pin_20)" "Net-(J10-Pin_18)" "Net-(J10-Pin_22)" "Net-(J10-Pin_6)" "Net-(J10-Pin_29)" "Net-(J10-Pin_7)" "Net-(J10-Pin_2)" "Net-(J10-Pin_31)"
+    "Net-(J10-Pin_11)" "Net-(J10-Pin_32)" "Net-(J10-Pin_5)" "Net-(J10-Pin_1)" "Net-(J10-Pin_23)" "Net-(J10-Pin_15)" "Net-(J10-Pin_8)" "Net-(J10-Pin_12)"
+    "Net-(J11-Pin_2)" "Net-(J11-Pin_5)" "Net-(J11-Pin_3)" "Net-(J11-Pin_7)" "Net-(J11-Pin_8)" "Net-(J11-Pin_4)" "Net-(J11-Pin_6)" "Net-(J11-Pin_1)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 500.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class POWER,Default
+    +12V GND
+    (clearance_class POWER,Default)
+    (via_rule POWER,Default)
+    (rule
+      (width 1200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
