@@ -504,7 +504,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "S:/Jimin_STORAGE/PROJECTS/계전기 컴퓨터/Relay4bitComputer/Bus-Interface-Unit/Bus-Interface-Unit-gbr",
+      "plot": "./Bus-Interface-Unit-gbr",
       "pos_files": "",
       "specctra_dsn": "Bus-Interface-Unit.dsn",
       "step": "",

@@ -504,7 +504,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./Arithmetic-Unit-gbr",
       "pos_files": "",
       "specctra_dsn": "Arithmetic-Unit.dsn",
       "step": "",

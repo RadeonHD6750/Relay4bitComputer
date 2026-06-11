@@ -504,7 +504,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./ALU-gbr",
       "pos_files": "",
       "specctra_dsn": "ALU.dsn",
       "step": "",
