@@ -1,0 +1,100 @@
+
+(rules PCB Enabler
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 884)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.4)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.7)
+    )
+  )
+  (rule
+    (width 400.0)
+    (clear 350.0)
+    (clear 200.0 (type smd_to_turn_gap))
+    (clear 500.0 (type default_POWER,Default))
+    (clear 87.6 (type smd_smd))
+    (clear 500.0 (type smd_POWER,Default))
+    (clear 500.0 (type "kicad_default"_POWER,Default))
+    (clear 500.0 (type POWER,Default_POWER,Default))
+  )
+  (padstack "Via[0-1]_600:300_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:300_um" "Via[0-1]_600:300_um" default
+  )
+  (via 
+    "Via[0-1]_600:300_um-kicad_default" "Via[0-1]_600:300_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_600:300_um-POWER,Default" "Via[0-1]_600:300_um" POWER,Default
+  )
+  (via_rule
+    default "Via[0-1]_600:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:300_um-kicad_default"
+  )
+  (via_rule
+    POWER,Default "Via[0-1]_600:300_um-POWER,Default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 400.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "Net-(D1-K)" "Net-(D2-K)" "Net-(D3-K)" "Net-(D4-K)" "Net-(J10-Pin_1)" "Net-(J11-Pin_2)" "Net-(J13-Pin_2)" "Net-(J10-Pin_2)"
+    "Net-(J11-Pin_3)" "Net-(J13-Pin_1)" "Net-(J13-Pin_3)" "Net-(J11-Pin_1)" "Net-(J23-Pin_7)" "Net-(J23-Pin_3)" "Net-(J23-Pin_8)" "Net-(J23-Pin_4)"
+    "Net-(J23-Pin_1)" "Net-(J23-Pin_6)" "Net-(J23-Pin_5)" "Net-(J23-Pin_2)" "Net-(J24-Pin_5)" "Net-(J24-Pin_6)" "Net-(J24-Pin_7)" "Net-(J24-Pin_3)"
+    "Net-(J24-Pin_4)" "Net-(J24-Pin_1)" "Net-(J24-Pin_8)" "Net-(J24-Pin_2)" "Net-(J29-Pin_2)" "Net-(J30-Pin_2)" "Net-(J31-Pin_2)" "Net-(J32-Pin_2)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 400.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class POWER,Default
+    GND +12V
+    (clearance_class POWER,Default)
+    (via_rule POWER,Default)
+    (rule
+      (width 1200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
