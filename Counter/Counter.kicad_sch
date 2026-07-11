@@ -741,6 +741,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Relay:G5V-2"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1714,7 +1821,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 104.14) (xy 275.59 124.46)
+			(xy 275.59 104.14) (xy 275.59 127)
 		)
 		(stroke
 			(width 0)
@@ -1884,7 +1991,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 130.81) (xy 149.86 139.7)
+			(xy 149.86 135.89) (xy 149.86 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2144,7 +2251,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 104.14) (xy 149.86 123.19)
+			(xy 149.86 104.14) (xy 149.86 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2284,7 +2391,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 130.81) (xy 209.55 139.7)
+			(xy 209.55 134.62) (xy 209.55 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2364,7 +2471,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 104.14) (xy 209.55 123.19)
+			(xy 209.55 104.14) (xy 209.55 127)
 		)
 		(stroke
 			(width 0)
@@ -2544,7 +2651,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 132.08) (xy 275.59 140.97)
+			(xy 275.59 134.62) (xy 275.59 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2574,7 +2681,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 275.59 140.97 0)
+		(at 275.59 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2583,7 +2690,7 @@
 		(fields_autoplaced yes)
 		(uuid "018ae47f-5f11-4528-aad8-104e240081ab")
 		(property "Reference" "#PWR023"
-			(at 275.59 147.32 0)
+			(at 275.59 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2592,7 +2699,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 275.59 146.05 0)
+			(at 275.59 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2600,7 +2707,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 275.59 140.97 0)
+			(at 275.59 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2609,7 +2716,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 275.59 140.97 0)
+			(at 275.59 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2618,7 +2725,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 275.59 140.97 0)
+			(at 275.59 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2725,16 +2832,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 149.86 127 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 106.68 209.55 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "20b8a994-92b3-4d0f-88e1-788854952ba0")
-		(property "Reference" "C6"
-			(at 153.67 125.73 0)
+		(fields_autoplaced yes)
+		(uuid "11dcdfbc-5a27-4c8d-8d20-e6676458d4cf")
+		(property "Reference" "H4"
+			(at 109.22 207.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2742,8 +2850,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "30V 4.7mF"
-			(at 153.67 128.27 0)
+		(property "Value" "MountingHole_Pad"
+			(at 109.22 209.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2751,8 +2859,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 150.8252 130.81 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 106.68 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2761,7 +2869,73 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 127 0)
+			(at 106.68 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 106.68 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "101d7b2e-a8e5-4538-9f4c-27029419a5d5")
+		)
+		(instances
+			(project "Counter"
+				(path "/558ae335-e4aa-44a8-99a1-dadeb84216d0"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 149.86 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20b8a994-92b3-4d0f-88e1-788854952ba0")
+		(property "Reference" "C6"
+			(at 153.67 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20V 470uF"
+			(at 153.67 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
+			(at 150.8252 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2770,7 +2944,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 149.86 127 0)
+			(at 149.86 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2795,7 +2969,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 149.86 139.7 0)
+		(at 149.86 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2804,7 +2978,7 @@
 		(fields_autoplaced yes)
 		(uuid "24706a81-9fdc-40cd-8d44-dba49d519dd2")
 		(property "Reference" "#PWR021"
-			(at 149.86 146.05 0)
+			(at 149.86 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2813,7 +2987,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 144.78 0)
+			(at 149.86 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2821,7 +2995,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 139.7 0)
+			(at 149.86 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2830,7 +3004,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 139.7 0)
+			(at 149.86 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2839,7 +3013,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 139.7 0)
+			(at 149.86 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2970,7 +3144,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 53.34 31.75 0)
 			(effects
 				(font
@@ -3007,6 +3181,72 @@
 			(project "Counter"
 				(path "/558ae335-e4aa-44a8-99a1-dadeb84216d0"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.74 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28b78026-07b2-47f5-bd43-92252fff488c")
+		(property "Reference" "#PWR04"
+			(at 78.74 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a534dba1-bbba-4b0b-8989-7fd4b66cc84a")
+		)
+		(instances
+			(project "Counter"
+				(path "/558ae335-e4aa-44a8-99a1-dadeb84216d0"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -3238,7 +3478,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 344.17 171.45 0)
 			(effects
 				(font
@@ -3505,6 +3745,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 78.74 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "618409ab-5caf-4aa2-b821-2b5fd22d7404")
+		(property "Reference" "H1"
+			(at 81.28 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 81.28 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 78.74 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 78.74 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7fbaafd-3293-4251-8815-583f6a507859")
+		)
+		(instances
+			(project ""
+				(path "/558ae335-e4aa-44a8-99a1-dadeb84216d0"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 43.18 143.51 0)
 		(unit 1)
@@ -3531,7 +3838,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 43.18 143.51 0)
 			(effects
 				(font
@@ -3574,6 +3881,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 78.74 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b7597ca-1f57-4461-ab71-0c638bf050f2")
+		(property "Reference" "#PWR01"
+			(at 78.74 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83988f74-d753-43ac-afe8-53cd7c862601")
+		)
+		(instances
+			(project "Counter"
+				(path "/558ae335-e4aa-44a8-99a1-dadeb84216d0"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 53.34 45.72 0)
 		(unit 1)
@@ -3599,7 +3972,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 53.34 45.72 0)
 			(effects
 				(font
@@ -3642,6 +4015,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 106.68 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7dbbb66c-1ddf-45a2-b0f8-6dcc3f07a796")
+		(property "Reference" "#PWR03"
+			(at 106.68 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73aa7b99-702b-40d1-bb98-d6e259abf446")
+		)
+		(instances
+			(project "Counter"
+				(path "/558ae335-e4aa-44a8-99a1-dadeb84216d0"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 379.73 88.9 0)
 		(mirror y)
@@ -3669,7 +4108,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 379.73 88.9 0)
 			(effects
 				(font
@@ -3885,7 +4324,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 275.59 128.27 0)
+		(at 275.59 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3893,15 +4332,6 @@
 		(dnp no)
 		(uuid "9261889f-a6a3-4d3a-8610-8f959e5ba774")
 		(property "Reference" "C8"
-			(at 279.4 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "30V 4.7mF"
 			(at 279.4 129.54 0)
 			(effects
 				(font
@@ -3910,8 +4340,17 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 276.5552 132.08 0)
+		(property "Value" "20V 470uF"
+			(at 279.4 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
+			(at 276.5552 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3920,7 +4359,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 275.59 128.27 0)
+			(at 275.59 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3929,7 +4368,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 275.59 128.27 0)
+			(at 275.59 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3979,7 +4418,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 54.61 101.6 0)
 			(effects
 				(font
@@ -4257,7 +4696,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "30V 4.7mF"
+		(property "Value" "20V 470uF"
 			(at 101.6 128.27 0)
 			(effects
 				(font
@@ -4266,7 +4705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
 			(at 98.7552 130.81 0)
 			(effects
 				(font
@@ -4548,6 +4987,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 78.74 209.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2dabb75-5adc-4cae-9b72-91c6dcc3da66")
+		(property "Reference" "H3"
+			(at 81.28 207.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 81.28 209.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 78.74 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 78.74 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4689c047-6b48-4ede-a2e1-d3269877c42e")
+		)
+		(instances
+			(project "Counter"
+				(path "/558ae335-e4aa-44a8-99a1-dadeb84216d0"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 107.95 91.44 0)
 		(unit 1)
@@ -4706,7 +5212,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 48.26 168.91 0)
 			(effects
 				(font
@@ -4816,7 +5322,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 139.7 0)
+		(at 209.55 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4825,7 +5331,7 @@
 		(fields_autoplaced yes)
 		(uuid "da58f578-5e46-40d5-9478-2c6576fbb8aa")
 		(property "Reference" "#PWR022"
-			(at 209.55 146.05 0)
+			(at 209.55 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4834,7 +5340,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 209.55 144.78 0)
+			(at 209.55 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4842,7 +5348,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 139.7 0)
+			(at 209.55 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4851,7 +5357,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 139.7 0)
+			(at 209.55 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4860,7 +5366,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 139.7 0)
+			(at 209.55 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4875,6 +5381,73 @@
 			(project "Counter"
 				(path "/558ae335-e4aa-44a8-99a1-dadeb84216d0"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 106.68 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc0666f4-014b-48f1-a365-066d24a7916e")
+		(property "Reference" "H2"
+			(at 109.22 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 109.22 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 106.68 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 106.68 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01822d6c-6780-4ca1-aa39-6e2e1fe12a4a")
+		)
+		(instances
+			(project "Counter"
+				(path "/558ae335-e4aa-44a8-99a1-dadeb84216d0"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -5013,8 +5586,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 106.68 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecda6dea-3109-4447-aa00-9f841bc23c9d")
+		(property "Reference" "#PWR02"
+			(at 106.68 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0dc7bdba-bff8-42d1-a104-af1ed73506b2")
+		)
+		(instances
+			(project "Counter"
+				(path "/558ae335-e4aa-44a8-99a1-dadeb84216d0"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 209.55 127 0)
+		(at 209.55 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5022,7 +5661,7 @@
 		(dnp no)
 		(uuid "ee9d244e-c34f-491c-acda-24f219989601")
 		(property "Reference" "C7"
-			(at 213.36 125.73 0)
+			(at 213.36 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5030,8 +5669,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "30V 4.7mF"
-			(at 213.36 128.27 0)
+		(property "Value" "20V 470uF"
+			(at 213.36 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5039,8 +5678,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 210.5152 130.81 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
+			(at 210.5152 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5049,7 +5688,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 127 0)
+			(at 209.55 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5058,7 +5697,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 209.55 127 0)
+			(at 209.55 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
