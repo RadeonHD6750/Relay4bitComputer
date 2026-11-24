@@ -2950,116 +2950,6 @@
 		)
 		(uuid "fbfba556-ce78-4a87-bad1-6a912c8cb4db")
 	)
-	(label "K2_P9"
-		(at 191.77 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "070a40e9-be95-4fc7-9373-c9f48bbfe1bf")
-	)
-	(label "K2_P6"
-		(at 218.44 213.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0e82d9b2-403b-4b49-9742-8530f05caa57")
-	)
-	(label "LOOP_P13"
-		(at 278.13 215.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "190391bf-9677-4213-b2f9-8b3875e6ec3e")
-	)
-	(label "LOOP_P16"
-		(at 218.44 205.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2e83219a-dd6d-4f80-8317-c13cf5cf3167")
-	)
-	(label "LOOP_P16"
-		(at 278.13 205.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "663c768f-7bf4-4eae-93ab-8a24493c48be")
-	)
-	(label "K2_P9"
-		(at 218.44 203.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "72f0af2d-1a17-412e-a7f6-08ef662bbbb5")
-	)
-	(label "LOOP_P13"
-		(at 218.44 215.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7f9a803c-459a-4028-81eb-307ccfa8286c")
-	)
-	(label "K3_P9"
-		(at 251.46 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aa04af67-1efe-47eb-a29f-74c15ec57d1d")
-	)
-	(label "K3_P9"
-		(at 278.13 203.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bd45b4a7-e22b-4ef4-9d79-9c450eac39c4")
-	)
-	(label "K3_P6"
-		(at 278.13 213.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c1cbb090-f210-4414-90dc-d23dbe8e94c6")
-	)
-	(label "K3_P6"
-		(at 252.73 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c62eb04e-94db-4977-9caf-bac63c154d04")
-	)
 	(label "LOOP_P16"
 		(at 97.79 58.42 180)
 		(effects
@@ -3069,16 +2959,6 @@
 			(justify right bottom)
 		)
 		(uuid "d40cb999-5c2c-4054-a7dd-5db9a4d01415")
-	)
-	(label "K2_P6"
-		(at 190.5 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d9090912-d047-46d1-8b8e-96a56aeffe2e")
 	)
 	(label "LOOP_P13"
 		(at 102.87 55.88 0)
